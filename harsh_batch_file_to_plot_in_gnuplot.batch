@@ -1,0 +1,138 @@
+set term pdf enhanced fontscale 1.2 size 14.0,8.0 font 'times new roman'
+
+unset label
+unset key
+unset xlabel
+unset ylabel
+unset xtics
+unset ytics
+unset tmargin
+unset bmargin
+unset rmargin
+unset lmargin
+
+#################
+#spectra to illustrate 1026 keV transition##### 
+#################
+#Gates
+# +t e/440 -> e = 224,339
+# -t a/167 -> a = 267,354,419,1026
+# +t a/466
+# -t 419/419 -t 1026/1026 +t a/419 +t a/1026
+
+set out '23_2_favored_band.pdf'
+set multiplot
+set xtics format "" scale 1.0 nomirror
+set mxtics 2
+#set size 1,1.0/3.0
+set border lw 3
+
+tmargin=0.95
+bmargin=0.10
+lmargin=0.07
+rmargin=0.98
+
+#204Pb-sum
+unset xlabel
+unset ylabel
+#set size 1,1.0/3.0
+#set origin 0,1.0/3.0
+
+set tmargin at screen tmargin
+set bmargin at screen bmargin #+ ((tmargin-bmargin)*1.0/2.0)
+set lmargin at screen lmargin
+set rmargin at screen rmargin
+
+x1=100
+x2=1050.0
+y1=100
+
+set xrange [x1:x2]
+set mxtics 2
+set mytics 2
+set yrange [-7:y1]
+set ytics 0,20.0,y1 format "%.0f" offset 0.4,0 scale 1.0 font ", 15" nomirror
+set xtics 0,150,x2 format "%.0f" offset 0.0,0.3 scale 1.0 font ", 15"
+
+unset label
+
+set label 402 '191' at 191,83 rotate by 90 font ", 14"
+set label 403 '275' at 275,85 rotate by 90 font ", 14"
+set label 404 '341' at 341,65 rotate by 90 font ", 14"
+set label 410 '396' at 396,70 rotate by 90 font ", 14"
+set label 412 '352' at 352,21 rotate by 90 font ", 14"
+set label 413 '794' at 795,24 rotate by 90 font ", 14"
+set label 417 '442' at 442,51 rotate by 90 font ", 14"
+
+
+#set label 420 '777' at 777,200 rotate by 90 font ", 14"
+#set label 421 '851' at 852,29 rotate by 90 font ", 14"
+#set label 422 '948' at 948,10 rotate by 90 font ", 14"
+#set label 423 '1304' at 1304,10 rotate by 90 font ", 14"
+#set label 424 '1185' at 1185,5 rotate by 90 font ", 14"
+#set label 425 '1214' at 1214,5 rotate by 90 font ", 14"
+
+#set label 427 '#' at 545,200 rotate by 90 font ", 14"
+#set label 428 '#' at 409,290 rotate by 90 font ", 14"
+#set label 429 '#' at 634,370 rotate by 90 font ", 14"
+#set label 430 '#' at 279,12 rotate by 90 font ", 14"
+#set label 419 '752' at 752,150 rotate by 90 font ", 14"
+#set arrow 41 from 947,350 to 947,100 head lw 4 lc rgb 'red'
+#set arrow 42 from 500,350 to 500,100 head lw 4 lc rgb 'red'
+#set label 414 center '390-493' at 0.25*x1,0.7*y1 font ", 10"
+
+set ylabel 'Counts' offset 0,0 font ", 18"
+set xlabel "Energy (keV)" offset -5,0.5 font ", 18"
+set label 4115 center '23/2 de-excitation band' at 850,0.90*y1 font ", 20"
+plot '23_2_favored_bande.asc' u ($1*1.33333+0.5):2 with histeps lc rgb 'red' lw 1.0 notitle
+
+
+#204Pb-sum-high-energy-part
+##unset xlabel
+##unset ylabel
+##unset arrow
+#set size 1,1.0/3.0
+#set origin 0,1.0/3.0
+
+##set tmargin at screen tmargin #+ ((tmargin-bmargin)*1.0/2.0)
+##set bmargin at screen bmargin + ((tmargin-bmargin)*1.6/2.0)
+##set lmargin at screen lmargin + ((rmargin - lmargin)*1.4/2.0)
+##set rmargin at screen rmargin
+
+
+##y4=10
+##x21=2250
+##x22=3100
+
+##set xrange [x21:x22]
+##set yrange [-1.5:y4]
+##set xlabel "Energy (keV)" offset 0.0,0.7 font ", 15"
+##set ylabel "Counts" offset 0.5,0.0 font ", 15"
+##set ytics 0,4,y4 format "%.0f" offset 0.4,0 scale 1.0 font ", 15"
+##set xtics 2000,400,x22 format "%.0f" offset 0.0,0.3 scale 1.0 font ", 15"
+##unset label
+
+##set label 61 '2520' at 2469,3 rotate by 90 font ", 14"
+##set label 62 '2750' at 2699,3 rotate by 90 font ", 14"
+##set label 63 '3030' at 2979,3 rotate by 90 font ", 14"
+##set label 64 '3183' at 3132,2 rotate by 90 font ", 14"
+##set label 65 '3197' at 3256,1 rotate by 90 font ", 14"
+#set label 66 '350' at 344,75 rotate by 90 font ", 14"
+#set label 67 '401' at 397,75 rotate by 90 font ", 14"
+#set label 68 '378' at 377,15 rotate by 90 font ", 14"
+#set label 69 '387' at 387,45 rotate by 90 font ", 14"
+#set label 610 '362' at 362,39 rotate by 90 font ", 14"
+
+#set arrow 41 from 327,85 to 370,170 nohead lw 2
+#set arrow 42 from 382,40 to 386,80 nohead lw 2
+
+#set label 414 '340-537' at 675,180 font ", 10"
+#set label 415 center '(b) ^{205}Bi' at 0.14*x2,0.90*y3 font ", 20"
+##plot 'C' u ($1*1.99999999999999+0.5):2 with histeps lc rgb 'black' lw 1.0 notitle
+
+#####################################################
+#####################################################
+
+unset multiplot
+unset label
+

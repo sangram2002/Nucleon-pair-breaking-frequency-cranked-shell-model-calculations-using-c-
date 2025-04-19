@@ -1,0 +1,141 @@
+** NUCID = 221Th  A = 221  Z =  90  N = 131
+** ADOPTED LEVELS, GAMMAS                                  07NDS    200705
+** ASCII Graphical Level Scheme file (Radware)
+** Created from ENSDF with e2a v0.0 (12 June 2000) on 09-Aug-21 15:40:03
+** ** NOTE THAT SOME ENSDF ASSIGNMENTS ARE NOT PRESERVED - see .txt file **
+ ASCII GLS file format version 1.0
+**  Z Nlevels Ngammas  Nbands Nlabels CharSizeX CharSizeY ArrowWidFact
+   90      14      22       3       0     75.00     85.00      3.00
+**  MaxArrowTan MaxArrowDX DefBandWid DefBandSep ArrowWidth ArrowLength
+       0.267900     999.00     600.00     150.00      40.00      80.00
+** ArrowBreak LevelBreak   LevCSX   LevCSY LevEnCSX LevEnCSY   GamCSX   GamCSY
+       30.00       40.00    75.00    85.00    75.00    85.00    75.00    85.00
+** Level   Energy +/- err     Jpi     K Band# LevelFlag LabelFlag EnLabFlag
+++   LabelDX   LabelDY EnLabelDX EnLabelDY  LevelDX1  LevelDX2
+     1      0.000   0.000    7/2+   7/2     1         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+     2    250.900   0.300   11/2+   7/2     1         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+     3    572.800   0.500   15/2+   7/2     1         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+     4    946.500   0.600   19/2+   7/2     1         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+     5   1356.000   0.800   23/2+   7/2     1         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+     6   1776.400   0.900   27/2+   7/2     1         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+     7   2251.500   1.100   31/2+   7/2     1         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+     8    488.000   0.500   13/2-  13/2     2         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+     9    746.900   0.600   17/2-  13/2     2         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+    10   1078.600   0.700   21/2-  13/2     2         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+    11   1472.000   0.900   25/2-  13/2     2         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+    12   1935.400   1.000   29/2-  13/2     2         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+    13   2421.500   1.100   33/2-  13/2     2         0         3         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+    14     47.000  20.000   -1/2      0     3         1         6         0 &
+++      0.00      0.00      0.00      0.00      0.00      0.00
+** Band   Name        X0        NX   LabelDX   LabelDY EnLabelDX EnLabelDY
+    1 221Th+AO  30000.00    600.00      0.00      0.00      0.00      0.00
+    2 221Th-BE  30750.00    600.00      0.00      0.00      0.00      0.00
+    3 221Th&??  31500.00    600.00      0.00      0.00      0.00      0.00
+** Gamma   Energy +/- err  Mult  ILev  FLev  Intensity +/- err
+++     ConvCoef +/- error      BrRatio +/- error     MixRatio +/- error
+++   GammaX1  GammaX2  LabelDX  LabelDY GammaFlag LabelFlag
+     1    250.900   0.300   E 2     2     1    10.0000         &
+++  3.03940E-01 0.000E+00  1.00000E+02 0.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+     2    237.100   0.300   E 1     8     2    10.0000         &
+++  6.39517E-02 0.000E+00  1.00000E+02 0.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+     3     84.800   0.300   E 1     3     8     5.8000  0.7000 &
+++  1.84229E-01 0.000E+00  5.80000E+01 7.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+     4    321.900   0.300   E 2     3     2    10.0000  0.5000 &
+++  1.39163E-01 0.000E+00  1.00000E+02 5.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+     5    174.100   0.300   E 1     9     3    10.0000  0.4000 &
+++  1.32546E-01 0.000E+00  1.00000E+02 4.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+     6    258.900   0.300   E 2     9     8     0.7300  0.1100 &
+++  2.74069E-01 0.000E+00  7.30000E+00 1.100E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         1         4
+     7    199.600   0.300   E 1     4     9    10.0000  0.6000 &
+++  9.56865E-02 0.000E+00  1.00000E+02 6.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+     8    373.600   0.500   E 2     4     3     2.7000  0.9000 &
+++  9.11160E-02 0.000E+00  2.70000E+01 9.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         0
+     9    132.100   0.300   E 1    10     4    10.0000  0.3000 &
+++  2.56957E-01 0.000E+00  1.00000E+02 3.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    10    332.100   0.300   E 2    10     9     3.6000  0.6000 &
+++  1.27013E-01 0.000E+00  3.60000E+01 6.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    11    277.400   0.300   E 1     5    10    10.0000  0.6000 &
+++  4.47084E-02 0.000E+00  1.00000E+02 6.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    12    409.500   0.300   E 2     5     4     0.9000  0.4000 &
+++  7.12988E-02 0.000E+00  9.00000E+00 4.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         1         4
+    13    116.000   0.300   E 1    11     5    10.0000  0.7000 &
+++  3.51830E-01 0.000E+00  1.00000E+02 7.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    14    393.300   0.300   E 2    11    10     8.7000  0.7000 &
+++  7.93080E-02 0.000E+00  8.70000E+01 7.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    15    304.400   0.300   E 1     6    11    10.0000  0.9000 &
+++  3.62940E-02 0.000E+00  1.00000E+02 9.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    16    420.300   1.000   E 2     6     5     1.3640         &
+++  6.66461E-02 0.000E+00  1.36400E+01 0.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         1         1
+    17    159.000   0.300   E 1    12     6     9.3000  1.5000 &
+++  1.65006E-01 0.000E+00  9.30000E+01 1.500E+01  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    18    463.500   0.500   E 2    12    11    10.0000  1.5000 &
+++  5.21173E-02 0.000E+00  1.00000E+02 1.500E+01  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         0
+    19    316.100   0.300   E 1     7    12    10.0000  1.7000 &
+++  3.33786E-02 0.000E+00  1.00000E+02 1.700E+01  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    20    475.000   1.100   E 2     7     6     1.6670         &
+++  4.90912E-02 0.000E+00  1.66700E+01 0.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         1         1
+    21    170.400   0.300   E 1    13     7     2.6000  0.4000 &
+++  1.39636E-01 0.000E+00  2.60000E+01 4.000E+00  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+    22    485.700   0.300   E 2    13    12    10.0000  1.2000 &
+++  4.65201E-02 0.000E+00  1.00000E+02 1.200E+01  0.00000E+00 0.000E+00 &
+++      0.00      0.00      0.00      0.00         0         3
+** Label                                   text  NChars
+++     SizeX     SizeY PositionX PositionY
+
+*** Level energy offset flags/modifiers:
+***  Level   Band(level)  EnergyModifier
+
+*** NOTE THAT SOME ENSDF ASSIGNMENTS ARE NOT PRESERVED ***
+
+PLEASE NOTE that RadWare-format files cannot preserve,
+ in any strict sense, the careful data assignments made by
+ nuclear data evaluators and stored in the ENSDF files.
+ The RadWare format is much more limited than the ENSDF one;
+ for example, in RadWare, transition multipolarities are
+ deduced from the level spins and parities, while in ENSDF a
+ transition may have no multipolarity assigned, or one assigned
+ in a range of different ways.  Other quantities required by
+ the RadWare format may or may not be assigned in the ENSDF
+ file, and some quantities in ENSDF (lifetimes, for example)
+ do not have any RadWare-format equivalent.  For this reason,
+ DO NOT assume that this file gives a true representation of
+ the assignments made (or not made) in ENSDF!
+
+ENSDF Gamma intensities have been renormalized.
+
+For this nucleus, a level spin label of -1/2 indicates
+ that in ENSDF either none or multiple JPI was assigned.
